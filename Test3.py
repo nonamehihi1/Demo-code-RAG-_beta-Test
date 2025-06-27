@@ -167,11 +167,3 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"❌ Lỗi với câu hỏi '{question}': {e}")
             continue
-    
-    print("✅ Hoàn thành so sánh!")
-    
-    # Summary
-    print("\n📋 TỔNG KẾT:")
-    print("• TF-IDF: Tốt cho tìm kiếm từ khóa chính xác")
-    print("• Hybrid: Tốt hơn cho tìm kiếm ngữ nghĩa và synonyms")
-    print("• Hybrid thường cho kết quả đa dạng và linh hoạt hơn")
